@@ -1,0 +1,8 @@
+
+sudo apt-get install wine -y
+
+wget http://www.mikrotik.com/download/winbox.exe
+
+sudo mv winbox.exe /bin
+
+wine /bin/winbox.exe
